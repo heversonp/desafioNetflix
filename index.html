@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="style/responsive.css">
     <!-- owl css -->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-    
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">    
 
     <title>NETFLIX</title>
   </head>
-  <body>
+  <body onload="montarMiniaturas()">
     <header>
       <div class="container">
         <h2 class="logon">NETFLIX</h2>
@@ -45,44 +44,17 @@
         </div>                
       </div>
     </main>
-    <div class="carrosel-filmes">
-      <div class="owl-carousel owl-theme">
-        <div class="item">
-          <img class="box-filme" src="img/mini1.jpg" alt="">
-        </div>
-        <div class="item">
-          <img class="box-filme" src="img/mini2.jpg" alt="">
-        </div>
-        <div class="item">
-          <img class="box-filme" src="img/mini3.jpg" alt="">
-        </div>
-        <div class="item">
-          <img class="box-filme" src="img/mini4.jpg" alt="">
-        </div>
-        <div class="item">
-          <img class="box-filme" src="img/mini5.jpg" alt="">
-        </div>
-        <div class="item">
-          <img class="box-filme" src="img/mini6.jpg" alt="">
-        </div>
-        <div class="item">
-          <img class="box-filme" src="img/mini7.jpg" alt="">
-        </div>
-        <div class="item">
-          <img class="box-filme" src="img/mini8.jpg" alt="">
-        </div>
-        <div class="item">
-          <img class="box-filme" src="img/mini9.jpg" alt="">
-        </div>
-        <div class="item">
-          <img class="box-filme" src="img/mini10.jpg" alt="">
-        </div>
+    <div class="carrossel-filmes">
+      <div id="divCarrossel" class="owl-carousel owl-theme">
+
+        <!-- carrossel -->
+
       </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-    <script src="js/owl/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>    
+    <script src="js/owl/jquery.min.js"></script>    
     <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/owl/setup.js"></script>
+    <script src="js/miniaturas.js"></script>
   </body>
 </html>
